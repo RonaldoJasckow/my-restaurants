@@ -9,10 +9,10 @@ data={{url: "data-restaurant.csv"}}
 />
 
 <Map
-style={{ height: 600 }}
-layers={[
+"style"={{ "height": 600 }}
+"layers"={[
 {
-data: [
+"data": [
   {
     "type": "Feature",
     "properties": {
@@ -274,16 +274,13 @@ data: [
     }
   }
 ],
-name: 'Points',
-tooltip: {
-propNames:'name',
+"name": 'Points',
+"tooltip": {
+"propNames":'name',
 },
 },
 ]}
-title="Map Builder",
-autoZoomConfiguration : {
-layerName : "Points"
-}
+"title"="Map Builder"
 />
 
 
