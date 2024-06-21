@@ -273,15 +273,14 @@ data: [
       "coordinates": [-46.69425612805821, -23.608320460574767]
     }
   }
-]
-,
+],
 name: 'Points',
 tooltip: {
 propNames:'name',
 },
 },
 ]}
-title="Map Builder"
+title="Map Builder",
 autoZoomConfiguration : {
 layerName : "Points"
 }
