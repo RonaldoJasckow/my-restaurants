@@ -378,14 +378,7 @@ Then update the url to lead to your pdf file.
 
 Here's a quick line chart:
 
-<LineChart
-  data={{
-    url: "data.csv"
-  }}
-  title="Annual CO2 Emissions"
-  xAxis="year"
-  yAxis="co2"
-/>
+
 
 You can add this line chart component by simply: 
 
@@ -394,15 +387,7 @@ You can add this line chart component by simply:
 3) Updating the URL (relative path)
 4) Updating the params (data, title, xAxis, yAxis) to reflect the relevant data
 
-```
-<LineChart
-  data={{
-    url: "data.csv"
-  }}
-  title="Annual CO2 Emissions"
-  xAxis="year"
-  yAxis="co2"
-/>
+
 ```
 
 > [!note]
