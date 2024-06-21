@@ -8,7 +8,7 @@ Here is a quick overview of the template structure:
 data={{url: "data-restaurant.csv"}}
 />
 
-<MapViewer
+<Map
 style={{ height: 600 }}
 layers={[
 {
